@@ -1,5 +1,7 @@
-language : java
+language: java
 
+before_install:
+ - chmod +x gradlew
 
-jdk: 
+jdk:
   - oraclejdk8
